@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+body { background: #101722; color: #eef2f7; font-family: Vazirmatn, Tahoma, sans-serif; }
+canvas { display: block; }
+.hud {
+  position: fixed; z-index: 2; top: 18px; right: 18px;
+  padding: 14px 18px; border-radius: 12px;
+  background: rgba(8, 13, 22, .78); border: 1px solid #394657;
+  pointer-events: none;
+}
+h1 { margin: 0 0 8px; font-size: 22px; }
+p { margin: 5px 0; color: #c3cfdf; font-size: 12px; }
+#status { color: #f0c783; }
